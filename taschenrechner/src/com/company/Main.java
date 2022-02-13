@@ -64,7 +64,7 @@ public class Main {
 
         frame.setVisible(true); //Zeigen
     }
-
+    //Operation
     public static void opration(){
         for (int k = 0; k < list.size(); k++) {
             if(list.get(k).equals("+")){
@@ -95,7 +95,8 @@ public class Main {
         zahl1 = 0.0;
         zahl2 = 0.0;
     }
-
+    
+    //zwei Zahlen bestimmen
     public static void analyse(int k){
         for (int i = 0; i < k; i++) {//11+22=33
             s1 += list.get(i); //11
